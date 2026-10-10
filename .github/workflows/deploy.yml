@@ -32,7 +32,7 @@ jobs:
       - name: Build and Test Application
         run: |
           test -f index.html
-          grep -q "End-to-End DevOps Pipeline" index.html
+          grep -q "Agile DevOps Pipeline" index.html
           echo "Build and tests passed successfully"
 
       - name: Upload Website Artifact
